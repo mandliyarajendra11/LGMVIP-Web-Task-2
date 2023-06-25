@@ -1,0 +1,119 @@
+header{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+header img{
+  height: 80%;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.parent{
+  width: 100%;
+  background-color: #F8f8f8;
+  padding: 5rem 8%;
+}
+.container{
+  margin: 5rem 0;
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+ gap: 5rem;
+}
+.childContainer{
+  border-radius: 1.2rem;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.childContainer p ,h3{
+  padding:1rem 2rem;
+}
+.childContainer img {
+  border-top-left-radius: 1.2rem;
+ border-top-right-radius: 1.2rem;
+  width: 100%;
+}
+.childContainer h3{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.childContainer p{
+  font-size: 1.8rem;
+  color: #666;
+}
+.childContainer:hover{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.childContainer:hover h3{
+  color:orange;
+
+}
+  @media(max-width:768px){
+    html{
+      font-size: 52%;
+    }
+    nav div{
+      width: 50%;
+    }
+    .user-login .single{
+      width: 65%;
+    }
+  }
+  @media(max-width:468px){
+    
+    nav h3{
+      font-size: 2.5rem;
+    }
+  }
+
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #383636; /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+  
+.spinner-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}

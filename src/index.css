@@ -1,0 +1,13 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+html{
+  font-size: 62.5%;
+scroll-behavior: smooth;
+scroll-padding-top:7rem;
+}
