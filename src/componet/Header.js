@@ -11,7 +11,7 @@ return (
     <header>
         <img src='Asset.png' alt='asset logo' />
       <button className='btn' onClick={()=>
-   getProduct(Api,dispatch)} disabled={Data.isLoading || Data.products}>Get Users</button>
+   getProduct(Api,dispatch)} disabled={Data.isLoading || Data.products.length}>Get Users</button>
     </header>
   )
 }

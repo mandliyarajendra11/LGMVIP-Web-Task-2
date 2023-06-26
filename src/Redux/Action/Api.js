@@ -12,7 +12,7 @@ export const getProduct=(url,dispatch)=>{
         catch(error){
             dispatch(ALL("Api_Error"));
         }    
-    },2000);
+    },500);
     
 }
 
