@@ -1,3 +1,7 @@
+
+this is my second task and this task comes under the Letsgrowmore  web internship
+in this task we need to fetch data from api and show loader during api call
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
